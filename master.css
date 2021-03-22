@@ -1,0 +1,66 @@
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #29B1DD;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.filter {
+  height: 60px;
+  background-color: #29B1DD;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.wrapper {
+  height: 100px;
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px grey;
+  margin-top: 20px;
+  margin-right: 20px;
+
+  flex: 0 1 calc(15% - 8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+i {
+  font-size: 40px;
+}
+
+.blue {
+  color: #0000FF;
+}
+
+.orange {
+  color: #FFA500;
+}
+
+.pink {
+  color: #800080;
+}
+
+.icon-name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
